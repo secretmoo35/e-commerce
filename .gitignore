@@ -1,3 +1,9 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
 # Logs
 logs
 *.log
@@ -28,6 +34,7 @@ build/Release
 
 # Dependency directories
 node_modules
+platforms
 jspm_packages
 
 # Optional npm cache directory
